@@ -1,0 +1,16 @@
+.big-btn {
+  width: 300px;
+  height: 80px;
+}
+
+.buy_button {
+  font-family: "Comic Sans MS", "Comic Sans", cursive;
+  background-color: aquamarine;
+  border:1px solid black;
+  font-size: 50px;
+  font-weight: bold;
+  padding: 4px;
+  border-radius: 10px;
+  margin:10px;
+  text-decoration: none;
+}

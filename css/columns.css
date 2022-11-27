@@ -1,0 +1,62 @@
+.row {
+  width: 100%;
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.column {
+  overflow: auto;
+  padding: 1%;
+}
+
+.center-content{
+  display: flex;
+  justify-content: center;
+}
+
+.percents-20 {
+  max-width: 20%;
+  flex: 0 0 20%;
+}
+
+.percents-33 {
+  max-width: 33.3%;
+  flex: 0 0 33.3%;
+}
+
+.percents-40 {
+  max-width: 40%;
+  flex: 0 0 40%;
+}
+
+.percents-50 {
+  max-width: 50%;
+  flex: 0 0 50%;
+}
+
+.percents-60 {
+  max-width: 60%;
+  flex: 0 0 60%;
+}
+
+.percents-100{
+  max-width: 100%;
+  flex: 0 0 100%;
+}
+
+@media (max-width: 750px) {
+  .column{
+    width: 100%;
+    max-width: 100%
+  }
+
+  .header .row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .row {
+    display: block;
+  }
+}
