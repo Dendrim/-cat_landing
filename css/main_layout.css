@@ -14,11 +14,17 @@ body {
 }
 
 .header {
+  background-image: linear-gradient(rgba(138, 186, 86, 0), rgba(138, 186, 86, 0.3) 95%);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: scroll, fixed;
+  background-position: 0 0%, center top;
+
   height: 250px ;
   display: block;
   flex-flow: row wrap;
   padding: 5px;
-  background-color: aquamarine;
+  /* background-color: aquamarine; */
 }
 
 .main {
