@@ -1,5 +1,5 @@
 body {
-  font-family: "Comic Sans MS", "Comic Sans", cursive;
+  font-family: "Candara", sans-serif;
 }
 
 * {
@@ -24,7 +24,6 @@ body {
   display: block;
   flex-flow: row wrap;
   padding: 5px;
-  /* background-color: aquamarine; */
 }
 
 .main {

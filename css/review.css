@@ -8,29 +8,60 @@
   font-size: 40px;
 }
 
+.reviewer_name p {
+    display: inline;
+    width: 100%;
+}
+
 .review_image {
   border-radius: 10px;
   width: 100%;
   vertical-align: middle;
 }
 
+.image_container .review_image {
+  border-radius: 10px;
+  width: 100%;
+  vertical-align: middle;
+}
+
+.review .image_container {
+  border:2px solid black;
+  background-color: white;
+  padding: 0;
+}
+
 .review_text {
-  font-size: 40px;
+  font-size: 30px;
   font-weight: bold;
+  text-align: center;
 }
 
 .review {
   border:1px solid black;
   border-radius: 5px;
+  overflow: clip;
 }
 
 @media (max-width: 920px){
   .column.percents-33.review{
     width: 100%;
-    max-width: 100%
+    max-width: 100%;
   }
 
   .reviews.row{
     display: block;
+  }
+
+  .review_text::after {
+    content: '\0000a0';
+    display: block;
+  }
+}
+
+@media (max-width: 1300px) {
+  .reviewer_name p {
+    display: inline-block;
+    width: 100%;
   }
 }
