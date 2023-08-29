@@ -14,7 +14,7 @@ body {
 }
 
 .header {
-  background-image: linear-gradient(rgba(138, 186, 86, 0), rgba(138, 186, 86, 0.3) 95%);
+  /* background-image: url("../images/intro_background.jpeg"); */
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: scroll, fixed;

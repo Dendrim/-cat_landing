@@ -44,7 +44,7 @@
   flex: 0 0 100%;
 }
 
-@media (max-width: 750px) {
+@media (max-width: 800px) {
   .column{
     width: 100%;
     max-width: 100%
